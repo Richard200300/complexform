@@ -103,7 +103,7 @@ function Form3({ setFormPage, formData, setFormData, togglemonth, selPlan }) {
                 onChange={handleChange}
                 name="onlineServiceyr"
               />
-              <div>euiudahod</div>
+            
               <div>
                 <p className="pick-ad-title">Online Service</p>
                 <p className="pick-ad-text">Access to multiplayer games</p>
