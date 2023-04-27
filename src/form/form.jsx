@@ -3,6 +3,7 @@ import Form1 from "./form1";
 import Form2 from "./form2";
 import Form3 from "./form3"
 import Form4 from "./form4"
+import Header from '../components/header'
 
 
 
@@ -154,6 +155,7 @@ const [formData, setFormData] = useState({
             <div>
               <h1 className="heading-text">{heading[formPage]}</h1>
               <p className="form1-text">{headingText[formPage]}</p>
+              <Header />
             </div>
             {displayformPgae()}
           </div>
