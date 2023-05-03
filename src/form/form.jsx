@@ -154,7 +154,8 @@ const [formData, setFormData] = useState({
             <div>
               <h1 className="heading-text">{heading[formPage]}</h1>
               <p className="form1-text">{headingText[formPage]}</p>
-            </div>
+
+</div>
             {displayformPgae()}
           </div>
         </div>
